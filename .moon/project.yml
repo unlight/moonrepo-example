@@ -46,6 +46,8 @@ tasks:
   noop:
     # The name of the binary/command on your system.
     command: 'noop'
+    options:
+      runInCI: false
 
     # List of arguments to pass on the command line when executing the task.
     args: []
@@ -70,3 +72,10 @@ tasks:
     # The type of command to run, and where to locate it.
     # Accepts "node" (default) or "system".
     type: 'node'
+
+  typecheck:
+    command: 'tsc'
+
+  build:
+    command: 'tsc'
+    args: '-p tsconfig.build.json'

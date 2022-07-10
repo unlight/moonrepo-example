@@ -6,7 +6,8 @@
   "scripts": {
     "start": "ts-node -r tsconfig-paths/register src/index.ts",
     "test": "npm run start",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
     "@acme/foo": "*"
