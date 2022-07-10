@@ -55,7 +55,7 @@ typescript:
 
   # Sync a project's `dependsOn` as TypeScript project references within the
   # project's `tsconfig.json` and the workspace root `tsconfig.json`.
-  syncProjectReferences: true
+  syncProjectReferences: false
 
 # Configures the version control system to utilize within the workspace. A VCS
 # is required for determining touched (added, modified, etc) files, calculating file hashes,

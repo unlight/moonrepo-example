@@ -4,7 +4,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@acme/*": ["packages/*/src"]
+      "@acme/*": [
+        "packages/*/src"
+      ]
     },
     "noEmit": true
   }
