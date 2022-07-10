@@ -70,9 +70,3 @@ tasks:
     # The type of command to run, and where to locate it.
     # Accepts "node" (default) or "system".
     type: 'node'
-
-  typecheck:
-    command: 'tsc'
-    args: '--noEmit'
-    inputs:
-      - 'src/**/*'

@@ -11,7 +11,7 @@
     "clean": "rm -rf ./dist",
     "compile": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "pnpm run build",
+    "prepublishOnly": "pnp run build",
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
