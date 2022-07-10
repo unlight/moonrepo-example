@@ -52,3 +52,9 @@ dist/
 reports
 .wireit
 .swc
+
+# Moon
+.moon/cache
+
+# Moon
+.moon/cache
