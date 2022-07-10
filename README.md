@@ -12,4 +12,5 @@ npm ci
 ## Commands
 
 - moon run :build
+- moon run :typecheck
 - moon ci
